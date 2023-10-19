@@ -56,6 +56,25 @@ we compute the expression ((x and y) or (z xor t))
 <br> 
 when the assignment of the variables are x=true, y=false, z=false, t=false.
 and then we compute the nandify and norify form of the expression and at the end we simplify the expression if we can.
+the simplification supported are:
+* x & 1 = x
+* x & 0 = 0
+
+* x & x = x
+* x | 1 = 1
+* x | 0 = x
+* x | x = x
+* x ^ 1 = ~(x)
+* x ^ 0 = x
+* x ^ x = 0
+* x A 1 = ~(x)
+* x A 0 = 1
+* x A x = ~(x)
+* x V 1 = 0
+* x V 0 = ~(x)
+* x V x = ~(x)
+* x # x = 1 <br>
+where x is a variable or an expression 
 <br>
 the result is 
 ![](images/CodeResult.png)
