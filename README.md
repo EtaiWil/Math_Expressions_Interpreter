@@ -55,7 +55,7 @@ the result is
 
 
 ## Setup
-### Option 2 - Without Ant
+### Option 1 - Without Ant
 1. Clone the repository:
 
 ```
