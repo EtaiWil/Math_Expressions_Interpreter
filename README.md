@@ -76,7 +76,8 @@ the simplification supported are:
 * x # x = 1 <br>
 where x is a variable or an expression 
 <br>
-the result is 
+the result is
+
 ![](images/CodeResult.png)
 
 
