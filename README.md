@@ -26,10 +26,14 @@ Expression e = new Not(
                   )
                );
 ```
-the "tree" of the expression will look like: 
+the "tree" of the expression will look like: <br> <br>
+
 ![](images/example1.png)
 <br>
-<br>in this project i worked with the following UML diagram to compute the expressions.
+<br>in this project i worked with the following UML diagram to compute the expressions. <br>
+
+<br>
+
 ![](images/DiagramOfTheProject.png)
 
 ## Examples
@@ -43,8 +47,11 @@ First,The string representations are as follows:
 * Not(x) = ~(x)
 
 here we can see the code example: 
+<br>
+<br>
 ![](images/CodeExample.png)
 <br> 
+<br>
 we compute the expression ((x and y) or (z xor t))
 <br> 
 when the assignment of the variables are x=true, y=false, z=false, t=false.
