@@ -1,15 +1,15 @@
-# Math Expressions interpreter 
+# Math Expressions Interpreter 
 ## General Information
-this program represents nested logical expressions with variables, evaluates their values
+This program represents nested logical expressions with variables, evaluates their values
 for specific variable assignments, and simplifies the results.
 
-Basically, it's a program that interprets logical expressions.
-It can be used for:
+Basically, it's a program that interprets logical expressions.<br>
+It can be used to:
 
 * Automatically differentiate and simplify expressions using logic gates.
 * Evaluate expressions.
-* Get expression's variables.
-* Performs procedures on the expression such as - nandify, norify, etc.
+* obtain expression's variables.
+* Perform procedures on the expression such as - nandify, norify, etc.
 
 
 ```
@@ -26,18 +26,18 @@ Expression e = new Not(
                   )
                );
 ```
-the "tree" of the expression will look like: <br> <br>
+The "tree" of the expression will look like: <br> <br>
 
 ![](images/example1.png)
 <br>
-<br>in this project i worked with the following UML diagram to compute the expressions. <br>
+<br>In this project I worked with the following UML diagram to compute the expressions: <br>
 
 <br>
 
 ![](images/DiagramOfTheProject.png)
 
 ## Examples
-First,The string representations are as follows:
+First, the string representations are as follows:
 * And(x,y) = (x & y)
 * Or(x,y) = (x | y)
 * Xor(x,y) = (x ^ y)
@@ -46,17 +46,17 @@ First,The string representations are as follows:
 * Xnor(x,y) = (x # y)
 * Not(x) = ~(x)
 
-here we can see the code example: 
+Here we can see the code example: 
 <br>
 <br>
 ![](images/CodeExample.png)
 <br> 
 <br>
-we compute the expression ((x and y) or (z xor t))
+We compute the expression ((x and y) or (z xor t))
 <br> 
-when the assignment of the variables are x=true, y=false, z=false, t=false.
-and then we compute the nandify and norify form of the expression and at the end we simplify the expression if we can.
-the simplification supported are:
+When the assignments of the variables are ```x=true, y=false, z=false, t=false ```.
+And then we compute the nandify and norify form of the expression and at the end we simplify the expression if we can.<br>
+The simplifications supported are:
 * x & 1 = x
 * x & 0 = 0
 
@@ -74,9 +74,9 @@ the simplification supported are:
 * x V 0 = ~(x)
 * x V x = ~(x)
 * x # x = 1 <br>
-where x is a variable or an expression 
+Where x is a variable or an expression 
 <br>
-the result is
+The result is
 
 ![](images/CodeResult.png)
 
@@ -99,7 +99,7 @@ git clone https://github.com/EtaiWil/Math_Expressions_Interpreter.git
 ```
 2. Install [Apache Ant](https://ant.apache.org/bindownload.cgi)
 
-   if you're having difficulties with the Ant installation proccess, you can click [here](https://www.youtube.com/watchv=3eaW81yYIqY&t=353s&ab_channel=xscourse) for help.
+   If you're having difficulties with the Ant installation proccess, you can click [here](https://www.youtube.com/watchv=3eaW81yYIqY&t=353s&ab_channel=xscourse) for help.
 
 <br /> 
 
@@ -108,7 +108,7 @@ git clone https://github.com/EtaiWil/Math_Expressions_Interpreter.git
     ant run
     ```
 
-## Built With
+## Built with
 
 - Java
 
