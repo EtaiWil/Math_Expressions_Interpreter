@@ -117,7 +117,7 @@ git clone https://github.com/EtaiWil/Math_Expressions_Interpreter.git
 
 **Etai Wilentzik**
 
-- [Profile](https://github.com/EtaiWil )
+- [Profile](https://github.com/EtaiWilentzik )
 - [Email](mailto:etaiwil2000@gmail.com?subject=Hi "Hi!")
 - [LinkedIn](https://www.linkedin.com/in/etai-wilentzik-b5a106212/ "Welcome")
 
